@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="utf-8">
+<script>
+
+   var socket = new WebSocket("ws://127.0.0.1:8080/echo");
+
+    socket.onmessage = function(event) {
+        alert("Received data from websocket: " + event.data);
+    }
+
+    socket.onopen = function(event) {
+       alert("Web Socket opened");
+    };
+
+    socket.onclose = function(event) {
+       alert("Web Socket closed");
+    };
+
+</script>
+</head>
+<body>
+</body>
+</html>

@@ -1,0 +1,5 @@
+{
+	"main": "test.js",
+	"includes": "com.jetdrone~yoke~1.0.4",
+	"auto-redeploy": true
+}

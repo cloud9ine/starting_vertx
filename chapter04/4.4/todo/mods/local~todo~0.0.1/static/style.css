@@ -1,0 +1,21 @@
+ul {
+	width: 400px;
+	list-style-type: none;	
+}
+
+li {
+	padding:5px 0;
+	border-right:1px #fff solid;
+	width:100px;
+	float:left;
+	background-color:#eee;
+	text-align:center;
+	cursor:pointer;
+}
+
+div.box {
+	padding:10px;
+	border:1px #333 solid;
+	width:280px;
+	height:100px;
+}
